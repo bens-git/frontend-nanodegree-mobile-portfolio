@@ -53,3 +53,34 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
+
+
+
+
+
+#Optimizations
+
+##index.html
+
+1. Replaced images with fonts
+2. Inlined all css
+3. Specified image size
+4. Downloaded google Open Sans and used it locally
+
+##pizza.html
+
+1. Inlined all css
+2. Removed unused css
+3. Calculated the number of pizzas generated based on page height
+4. Moved the sin calculations out of the loop
+
+###Resizing Pizzas
+1. Created pizzaArray instead of using querySelectorAll multiple times
+2. Calculated new width for one pizza instead of every pizza
+
+###Loading Pizzas
+1. Moved getElementById out of the loop
+
+#Running Instructions
+1. Open index.html in browser for the main page
+2. go to views/pizza.html for the pizza page
